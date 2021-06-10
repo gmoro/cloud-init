@@ -53,6 +53,9 @@ These user-data and meta-data files are expected to be in the following format.
 Basically, user-data is simply user-data and meta-data is a yaml formatted file
 representing what you'd find in the EC2 metadata service.
 
+**Note:** user-data and meta-data are both required to be present for it to be
+considered a valid seed ISO
+
 You may also optionally provide a vendor-data file in the following format.
 
 ::
